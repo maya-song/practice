@@ -19,9 +19,9 @@ import ImageLoader from 'react-load-image';
 
 const superagent = require('superagent');
 
-function Preloader(props) {
-  return <img src={require("./images/assets/preloader-gif.gif")} />;
-}
+// function Preloader(props) {
+//   return <img src={require("./images/assets/preloader-gif.gif")} />;
+// }
 
 class App extends React.Component {
 
@@ -30,13 +30,13 @@ class App extends React.Component {
     return(
        
       <Fragment>
-        <Preloader/>
+        {/* <Preloader/> */}
         {/* <ImageLoader src="./images/assets/preloader-gif.gif" >
           <img/>
           <div>Error!</div>
           <Preloader/>
           </ImageLoader> */}
-       {/* <Navigation/>  */}
+       <Navigation/>  
         
         {/* <Home/>
         <Service/> */}
